@@ -1,0 +1,13 @@
+from tkinter import *
+a=Tk()
+var=IntVar()
+Checkbutton(a,text="social studies",variable=var).grid(row=1, sticky=W)
+var1=IntVar()
+Checkbutton(a,text="biology",variable=var1).grid(row=2, sticky=W)
+var2=IntVar()
+Checkbutton(a,text="physics",variable=var2).grid(row=1,column=2,sticky=W)
+var3=IntVar()
+Checkbutton(a,text="chemistry",variable=var3).grid(row=2,column=2,sticky=W)
+var4=IntVar()
+Checkbutton(a,text="maths",variable=var4).grid(row=5, sticky=W)
+a.mainloop()
